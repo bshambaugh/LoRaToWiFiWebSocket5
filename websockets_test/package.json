@@ -1,0 +1,8 @@
+{
+  "name": "websockets_test",
+  "version": "0.0.1",
+  "description": "my first websockets app",
+  "dependencies": {
+    "ws": "^7.3.0"
+  }
+}

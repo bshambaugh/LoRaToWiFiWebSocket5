@@ -1,0 +1,35 @@
+[0:04] (testWiFi.ino)
+
+[0:12] https://github.com/Links2004/arduinoWebSockets/blob/master/examples/esp32/WebSocketClient/WebSocketClient.ino
+
+[0:36] (techtutorialsfx_WS_server.ino)
+
+[0:40] https://github.com/morrissinger/ESP8266-Websocket
+
+[0:44] https://techtutorialsx.com/2017/11/03/esp32-arduino-websocket-server/
+
+[1:07] (testWiFi_w_LoRa.ino)
+
+[1:17] 4 ways communicating with serial port in linux , https://www.youtube.com/watch?v=XsKKgml4ZSk
+
+[1:23] (testWiFi_w_LoRa.ino)
+
+[1:40] https://www.ably.io/concepts/websockets
+
+[1:43]  https://github.com/uNetworking/uWebSockets.js
+
+[1:57] https://github.com/websockets/ws
+
+[2:10] /localost/chat-app-scratch_esp32
+
+[2:30] ~/Downloads/websockets_test/server.js / ~/Downloads/chat-app_scratch_esp32/test-websocket.backup2.html
+
+[2:54] https://esp8266-shop.com/blog/websocket-connection-between-esp8266-and-node-js-server/
+
+[4:07] (ESP8266_Websocket_wLoRa.ino)
+
+[4:10] /var/www/html/testcode/new_try. ~/Downloads/mysql_node_test
+
+[4:18] /var/www/html/esp8266_shop_websockets 
+
+

@@ -1,0 +1,31 @@
+var mysql = require('mysql');
+let sql = "SHOW DATABASES";
+
+// https://stackoverflow.com/questions/10645994/how-to-format-a-utc-date-as-a-yyyy-mm-dd-hhmmss-string-using-nodejs
+let dt = new Date().toISOString().
+  replace(/T/, ' ').      // replace T with a space
+  replace(/\..+/, '')     // delete the dot and everything after
+
+console.log(dt);
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "username",
+  password: "userpassword"
+});
+
+/*
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+*/
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("Result: " + JSON.stringify(result));
+  });
+});
